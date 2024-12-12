@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fff7ad;
+}
+
+#main-header, #contact-header, #gallery-header {
+    background-color: #1d62b1;
+    color: #ffffff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.page-title {
+    margin: 0;
+    font-size: 2em;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin: 0;
+}
+
+.main-nav ul li {
+    margin: 0 1em;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 2em auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+#logo img, #gallery img {
+    margin: 1em 0;
+    border: 2px solid #333;
+}
+
+.img-title {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+#main-footer {
+    background-color: #000;
+    color: #f8f18f;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
